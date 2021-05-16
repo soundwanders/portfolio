@@ -1,0 +1,28 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "personal portfolio site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soundwanders/portfolio.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "personal",
+    "portfolio",
+    "developer",
+    "website"
+  ],
+  "author": "soundwanders",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soundwanders/portfolio/issues"
+  },
+  "homepage": "https://github.com/soundwanders/portfolio#readme"
+}
