@@ -1,1 +1,1 @@
-Freelancer Jekyll theme
+Freelancer Jekyll Bootstrap theme

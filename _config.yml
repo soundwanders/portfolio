@@ -1,10 +1,10 @@
 # Site settings
-title: Jared Coletta
+title: JColetta
 email: soundwanders@gmail.com
-url: www.jcoletta.com
-description: "Jared Coletta's developer portfolio."
-keywords: "html, css, javascript, developer, personal, portfolio, website"
-skills: "Web Developer - UI Designer"
+url: https://soundwanders.github.io/portfolio
+description: "JColetta developer portfolio."
+keywords: "html, css, javascript, jekyll, bootstrap, portfolio, website"
+skills: "Front-End Developer"
 meta_author: Coletta, Jared
 
 # Google webmaster tools
@@ -40,15 +40,15 @@ footer:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
+    url: https://stackoverflow.com/questions/tagged/jekyll
   - title: portfolio-site
-    url: http://jcoletta.com
+    url: https://soundwanders.github.io/portfolio
   - title: github
-    url: http://github.com/soundwanders
+    url: https://github.com/soundwanders
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Derry, New Hampshire 03038
+  - line: New Hampshire, United States
 
 # Build settings
 markdown: kramdown
