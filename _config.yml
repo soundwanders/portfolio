@@ -41,8 +41,8 @@ footer:
 social:
   - title: stack-overflow
     url: https://stackoverflow.com/questions/tagged/jekyll
-  - title: portfolio-site
-    url: https://soundwanders.github.io/portfolio
+  - title: linkedin
+    url: https://www.linkedin.com/in/jared-coletta-205882116
   - title: github
     url: https://github.com/soundwanders
 
