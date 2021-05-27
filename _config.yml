@@ -1,17 +1,17 @@
 # Site settings
-title: JColetta
+title: SoundWanders
 email: soundwanders@gmail.com
 url: https://soundwanders.github.io/portfolio
-description: "JColetta developer portfolio."
+description: "Jared Coletta developer portfolio."
 keywords: "html, css, javascript, jekyll, bootstrap, portfolio, website"
 skills: "Front-End Developer"
-meta_author: Coletta, Jared
+meta_author: soundwanders
 
-# Google webmaster tools
-google_verify:
+# # Google webmaster tools
+# google_verify:
 
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+# # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+# bing_verify:
 
 # Contact form:
 # - static : pass through formspree.io to validate email sending
@@ -19,20 +19,20 @@ bing_verify:
 # - comment the line below if you want to stick with the default PHP contact form
 contact: static
 
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
+# # If you use disqus you need disqus shortname
+# # https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: sw
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
+  primary: 1E90FF
   primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
+  secondary: 354b60
   secondary-dark: 233140 #A2122F
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: soundwanders
   location: Location
   social: Around the Web
   credits: Credits

@@ -2,7 +2,7 @@
 layout: default
 modal-id: 4
 date: 2020-10-04
-img: safe.png
+img: money.png
 alt: image-alt
 link: https://soundwanders.github.io/budget
 project-date: October 2020

@@ -14,18 +14,18 @@
     "jekyll",
     "bootstrap",
     "ruby",
-    "gem",
+    "gems",
     "html",
     "css",
     "javascript",
     "personal",
     "portfolio",
+    "site",
     "front-end",
-    "developer",
-    "website"
+    "developer"
   ],
   "author": "soundwanders",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/soundwanders/portfolio/issues"
   },
