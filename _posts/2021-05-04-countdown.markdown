@@ -8,5 +8,5 @@ visit: https://soundwanders.github.io/countdown
 project-date: May 2021
 tools: HTML, CSS, JavaScript
 category: Web Development
-description: A countdown clock, ticking down to the start of the NHL playoffs. Landing-page style, static design. Features a flash-game style animation of hockey pucks shooting towards a goal.
+description: A countdown clock, ticking down to the start of the NHL playoffs. Landing-page style, static design. Features a flash-game style CSS animation of hockey pucks shooting towards a goal.
 ---

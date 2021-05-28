@@ -8,5 +8,5 @@ visit: https://soundwanders.github.io/nebula
 project-date: April 2021
 tools: HTML, CSS, JavaScript, Bootstrap
 category: Web Development
-description: Image gallery of discovered nebulae built with Bootstrap. Modal images pop out when clicked on for a full-screen view on mobile and on desktop it is shown in its full scale.
+description: Image gallery of discovered nebulae built with Bootstrap. Modal images pop out when clicked on for a full-screen view on mobile and on desktop it is shown in its full scale. Features a background animation of shooting stars created with CSS.
 ---

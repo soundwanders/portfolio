@@ -8,5 +8,5 @@ visit: https://soundwanders.github.io/makehero
 project-date: December 2020
 tools: HTML, CSS, JavaScript
 category: Web Development
-description: MakeHero is a mock character creation application that allows the user to select one of 3 heroes (Gladiator, Ninja, Samurai) and set their attributes. I created the characters and designed the background of the page to gain a better understanding of proper dimensions when designing for the web, how different image resolutions affects image quality and rendering speed, and how images react when browser is resized or viewed on different devices. Far from perfect but a highly enjoyable learning experience.
+description: MakeHero is a mock character creation application that allows the user to select one of 3 heroes (Gladiator, Ninja, Samurai) and set their attributes. I created the characters and designed the background of the page to gain a better understanding of proper dimensions when designing for the web. Also experimented with different image resolutions/sizes to explore the balancing of image quality and rendering speed. Far from perfect but a highly enjoyable learning experience.
 ---
