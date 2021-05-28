@@ -18,14 +18,14 @@
                                 <p>{{ post.description }}</p>
                             {% endif %}
                             <ul class="list-inline item-details">
-                                {% if post.link %}
-                                <li>visit:
+                                {% if post.visit %}
+                                <li>Visit:
                                     <strong><a href="{{ post.link }}">{{ post.visit }}</a>
                                     </strong>
                                 </li>
                             {% endif %}
                                 {% if post.tools %}
-                                    <li>tools:
+                                    <li>Tools:
                                         <strong><a href="{{ post.link }}">{{ post.tools}}</a>
                                         </strong>
                                     </li>
@@ -37,7 +37,7 @@
                                     </li>
                                 {% endif %}
                                 {% if post.category %}
-                                    <li>category:
+                                    <li>Category:
                                         <strong><a href="{{ post.link }}">{{ post.category }}</a>
                                         </strong>
                                     </li>
