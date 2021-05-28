@@ -4,9 +4,9 @@ modal-id: 6
 date: 2021-02-12
 img: books.png
 alt: Timbuktu
-link: https://soundwanders.github.io/timbuktu
+view: https://soundwanders.github.io/timbuktu
 project-date: February 2021
 tools: HTML, CSS, JavaScript, Skeleton CSS, Normalize CSS
 category: Web Development
-description: Timbuktu is a digital library for books and podcasts about ancient civilizations. There is a static demo hosted on Github Pages and a full-stack web application hosted on Google Firebase that authorizes user's Github and Google logins and allows data to be saved to a realtime database. The full-stack version is still in development, but the live demo is hosted on Github Pages.
+description: Timbuktu is a digital library for books and podcasts about ancient civilizations. There is a static demo hosted on Github Pages and a full-stack web application hosted on Google Firebase that authorizes user login with Github and Google's OAuth. Data stored permanently under either the authorized user's ID or an automatically generated ID. in Firebase's database.
 ---

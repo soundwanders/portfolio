@@ -4,7 +4,7 @@ modal-id: 1
 date: 2021-05-04
 img: skate.png
 alt: Countdown
-link: https://soundwanders.github.io/countdown
+view: https://soundwanders.github.io/countdown
 project-date: May 2021
 language: HTML, CSS, JavaScript
 category: Web Development

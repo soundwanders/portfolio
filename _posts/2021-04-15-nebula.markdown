@@ -4,7 +4,7 @@ modal-id: 5
 date: 2021-04-15
 img: stars.png
 alt: Nebula
-link: https://soundwanders.github.io/nebula
+view: https://soundwanders.github.io/nebula
 project-date: April 2021
 tools: HTML, CSS, JavaScript, Bootstrap
 category: Web Development
