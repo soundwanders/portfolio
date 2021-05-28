@@ -1,12 +1,12 @@
 ---
 layout: default
-modal-id: 5
+modal-id: 2
 date: 2020-12-28
 img: game.png
-alt: makeHero
+alt: Make Hero
 link: https://soundwanders.github.io/makehero
 project-date: December 2020
 tools: HTML, CSS, JavaScript
 category: Web Development
-description: MakeHero is a mock character creation web app that allows the user to select one of 3 heros and set their attributes. 
+description: MakeHero is a mock character creation application that allows the user to select one of 3 heroes (Gladiator, Ninja, Samurai) and set their attributes. I created the characters and designed the background of the page to gain a better understanding of proper dimensions when designing for the web, how different image resolutions affects image quality and rendering speed, and how images react when browser is resized or viewed on different devices. Far from perfect but a highly enjoyable learning experience.
 ---

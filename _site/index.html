@@ -1,18 +1,576 @@
-<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jared Coletta developer portfolio.">
+    <meta name="keywords" content="html, css, javascript, jekyll, bootstrap, portfolio, website" />
+    <meta name="author" content="soundwanders">
+    <link rel="canonical" href="https://soundwanders.github.io/portfolio/">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
 
-<p>Jekyll requires blog post files to be named according to the following format:</p>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
 
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+    <title>SoundWanders</title>
 
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="/portfolio/style.css">
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+    <!-- Google verification -->
+    
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+    <!-- Bing Verification -->
+    
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="/portfolio/css/font-awesome/css/font-awesome.min.css">
+    <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+    <body id="page-top" class="index">
+       <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped , optimzed for mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">SoundWanders</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top">soundwanders</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- Header -->
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <img class="img-responsive" src="img/profile.png" alt="profile-picture" />
+        <div class="intro-text">
+          <span class="name">SoundWanders</span>
+          <hr class="star-light" />
+          <span class="skills">Front-End Developer</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+    
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container portfolio-flex-grid">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Portfolio</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="portfolio-flex-row">
+                
+                    <div class="portfolio-flex-item portfolio-item">
+                        <a href="#portfolioModal-2" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/stars.png" class="img-responsive" alt="Nebula">
+                        </a>
+                    </div>
+                
+                    <div class="portfolio-flex-item portfolio-item">
+                        <a href="#portfolioModal-3" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/sleuth.png" class="img-responsive" alt="Node Scraper">
+                        </a>
+                    </div>
+                
+                    <div class="portfolio-flex-item portfolio-item">
+                        <a href="#portfolioModal-6" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/books.png" class="img-responsive" alt="Timbuktu">
+                        </a>
+                    </div>
+                
+                    <div class="portfolio-flex-item portfolio-item">
+                        <a href="#portfolioModal-5" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/game.png" class="img-responsive" alt="Make Hero">
+                        </a>
+                    </div>
+                
+                    <div class="portfolio-flex-item portfolio-item">
+                        <a href="#portfolioModal-4" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/money.png" class="img-responsive" alt="Budget">
+                        </a>
+                    </div>
+                
+            </div>
+        </div>
+    </section>
+     <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>Freelancer is a bootstrap theme.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>This is filled with junk that means nothing but will hold content later. pomato topato</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <!-- Contact Section -->
+<section id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2>Contact Me</h2>
+				<hr class="star-primary">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				<form  action="//formspree.io/soundwanders@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+					<div class="row control-group">
+						<div class="form-group col-xs-12 floating-label-form-group controls">
+							<label for="name">Name</label>
+							<input type="text" name="name" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+							<p class="help-block text-danger"></p>
+						</div>
+					</div>
+					<div class="row control-group">
+						<div class="form-group col-xs-12 floating-label-form-group controls">
+							<label for="email">Email Address</label>
+							<input type="email" name="_replyto" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+							<p class="help-block text-danger"></p>
+						</div>
+					</div>
+					<div>
+						<input type="hidden"  name="_subject" value="New submission!">
+						<input type="text" name="_gotcha" style="display:none" />
+					</div>
+					<div class="row control-group">
+						<div class="form-group col-xs-12 floating-label-form-group controls">
+							<label for="message">Message</label>
+							<textarea rows="5" name="message" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+							<p class="help-block text-danger"></p>
+						</div>
+					</div>
+					<br>
+					<div id="success"></div>
+					<div class="row">
+						<div class="form-group col-xs-12">
+							<button type="submit" class="btn btn-success btn-lg">Send</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+
+    
+
+        <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>
+                            
+                                New Hampshire, United States <br>
+		                    
+                        </p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            
+                            <li>
+                                <a href="https://stackoverflow.com/users/14271738/soundwanders" class="btn-social btn-outline"><i class="fa fa-fw fa-stack-overflow"></i></a>
+                            </li>
+		                    
+                            <li>
+                                <a href="https://www.linkedin.com/in/jared-coletta-205882116" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+		                    
+                            <li>
+                                <a href="https://github.com/soundwanders" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+		                    
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; soundwanders 2021
+                        <br>
+                        Theme created by <a href="https://startbootstrap.com/">Start Bootstrap</a>
+                        <br>
+                        <a href="https://github.com/jeromelachaud/freelancer-theme" class="btn btn-md btn-outline">
+                            <i class="fa fa-download"></i>'Freelancer' Theme
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+     <!-- Portfolio Modals -->
+ 
+    <div class="portfolio-modal modal fade" id="portfolioModal-2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Nebula</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/stars.png" class="img-responsive img-centered" alt="Nebula">
+                            
+                                <p>Image gallery of discovered nebulae built with Bootstrap. Modal images pop out when clicked on for a full-screen view on mobile and on desktop it is shown in its full scale.</p>
+                            
+                            <ul class="list-inline item-details">
+                                
+                                <li>Service:
+                                    <strong><a href="https://soundwanders.github.io/nebula">https://soundwanders.github.io/nebula</a>
+                                    </strong>
+                                </li>
+                            
+                                
+                                    <li>tools:
+                                        <strong><a href="https://soundwanders.github.io/nebula">HTML, CSS, JavaScript, Bootstrap</a>
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Date:
+                                        <strong><a href="https://soundwanders.github.io/nebula">April 2021</a>
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Service:
+                                        <strong><a href="https://soundwanders.github.io/nebula">Web Development</a>
+                                        </strong>
+                                    </li>
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal-3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Node Scraper</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/sleuth.png" class="img-responsive img-centered" alt="Node Scraper">
+                            
+                                <p>Web scraping data from multiple websites using Node. One scraper gathers a list of all the schools who won the Minnesota High School State Hockey Tournament. Another scraper creates a list of Endangered Species and their current conservation status.</p>
+                            
+                            <ul class="list-inline item-details">
+                                
+                                <li>Service:
+                                    <strong><a href="https://github.com/soundwanders/node-scraper.git">https://github.com/soundwanders/node-scraper.git</a>
+                                    </strong>
+                                </li>
+                            
+                                
+                                    <li>tools:
+                                        <strong><a href="https://github.com/soundwanders/node-scraper.git">Node.js, Axios, Cheerio, Puppeteer, Request</a>
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Date:
+                                        <strong><a href="https://github.com/soundwanders/node-scraper.git">March 2021</a>
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Service:
+                                        <strong><a href="https://github.com/soundwanders/node-scraper.git">Web Development</a>
+                                        </strong>
+                                    </li>
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal-6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Timbuktu</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/books.png" class="img-responsive img-centered" alt="Timbuktu">
+                            
+                                <p>Timbuktu is a digital library for books and podcasts about ancient civilizations. There is a static demo hosted on Github Pages and a full-stack web application hosted on Google Firebase that authorizes user's Github and Google logins and allows data to be saved to a realtime database. The full-stack version is still in development, but the live demo is hosted on Github Pages.</p>
+                            
+                            <ul class="list-inline item-details">
+                                
+                                <li>Service:
+                                    <strong><a href="https://soundwanders.github.io/timbuktu">https://soundwanders.github.io/timbuktu</a>
+                                    </strong>
+                                </li>
+                            
+                                
+                                    <li>tools:
+                                        <strong><a href="https://soundwanders.github.io/timbuktu">HTML, CSS, JavaScript, Skeleton CSS, Normalize CSS</a>
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Date:
+                                        <strong><a href="https://soundwanders.github.io/timbuktu">February 2021</a>
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Service:
+                                        <strong><a href="https://soundwanders.github.io/timbuktu">Web Development</a>
+                                        </strong>
+                                    </li>
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal-5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Makehero</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="Make Hero">
+                            
+                                <p>MakeHero is a mock character creation application that allows the user to select one of 3 heroes (Gladiator, Ninja, Samurai) and set their attributes. I created the characters and designed the background of the page to gain a better understanding of proper dimensions when designing for the web, how different image resolutions affects image quality and rendering speed, and how images react when browser is resized or viewed on different devices. Far from perfect but a highly enjoyable learning experience.</p>
+                            
+                            <ul class="list-inline item-details">
+                                
+                                <li>Service:
+                                    <strong><a href="https://soundwanders.github.io/makehero">https://soundwanders.github.io/makehero</a>
+                                    </strong>
+                                </li>
+                            
+                                
+                                    <li>tools:
+                                        <strong><a href="https://soundwanders.github.io/makehero">HTML, CSS, JavaScript</a>
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Date:
+                                        <strong><a href="https://soundwanders.github.io/makehero">December 2020</a>
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Service:
+                                        <strong><a href="https://soundwanders.github.io/makehero">Web Development</a>
+                                        </strong>
+                                    </li>
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal-4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Budget</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/money.png" class="img-responsive img-centered" alt="Budget">
+                            
+                                <p>A simple budget calculator web application. The user is able to input their monthly income, create a list of expenses and calculate their remaining budget. Regular expressions are used to check user inputs for accepted values."</p>
+                            
+                            <ul class="list-inline item-details">
+                                
+                                <li>Service:
+                                    <strong><a href="https://soundwanders.github.io/budget">https://soundwanders.github.io/budget</a>
+                                    </strong>
+                                </li>
+                            
+                                
+                                    <li>tools:
+                                        <strong><a href="https://soundwanders.github.io/budget">HTML, CSS, JavaScript</a>
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Date:
+                                        <strong><a href="https://soundwanders.github.io/budget">October 2020</a>
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Service:
+                                        <strong><a href="https://soundwanders.github.io/budget">Web Development</a>
+                                        </strong>
+                                    </li>
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- jQuery Version 1.11.0 -->
+    <script src="/portfolio/js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/portfolio/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/portfolio/js/jquery.easing.min.js"></script>
+    <script src="/portfolio/js/classie.js"></script>
+    <script src="/portfolio/js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="/portfolio/js/jqBootstrapValidation.js"></script>
+    
+    <script src="/portfolio/js/contact_me_static.js"></script>
+    
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/portfolio/js/freelancer.js"></script>
+
+    
+
+    </body>
+</html>
