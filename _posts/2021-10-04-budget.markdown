@@ -4,7 +4,7 @@ modal-id: 4
 date: 2020-10-04
 img: money.png
 alt: Budget
-view: https://soundwanders.github.io/budget
+visit: https://soundwanders.github.io/budget
 project-date: October 2020
 tools: HTML, CSS, JavaScript
 category: Web Development

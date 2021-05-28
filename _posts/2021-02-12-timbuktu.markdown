@@ -4,7 +4,7 @@ modal-id: 6
 date: 2021-02-12
 img: books.png
 alt: Timbuktu
-view: https://soundwanders.github.io/timbuktu
+visit: https://soundwanders.github.io/timbuktu
 project-date: February 2021
 tools: HTML, CSS, JavaScript, Skeleton CSS, Normalize CSS
 category: Web Development

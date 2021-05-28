@@ -4,7 +4,7 @@ modal-id: 3
 date: 2021-03-10
 img: sleuth.png
 alt: Node Scraper
-view: https://github.com/soundwanders/node-scraper.git
+visit: https://github.com/soundwanders/node-scraper.git
 project-date: March 2021
 tools: Node.js, Axios, Cheerio, Puppeteer, Request
 category: Web Development
