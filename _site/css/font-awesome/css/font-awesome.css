@@ -38,6 +38,9 @@
 .fa-5x {
   font-size: 5em;
 }
+.fa-7x {
+  font-size: 7em;
+}
 .fa-fw {
   width: 1.28571429em;
   text-align: center;
@@ -475,6 +478,9 @@
 .fa-share:before {
   content: "\f064";
 }
+.fa-bootstrap:before {
+  content: "\f836"
+}
 .fa-expand:before {
   content: "\f065";
 }
@@ -492,6 +498,9 @@
 }
 .fa-exclamation-circle:before {
   content: "\f06a";
+}
+.fa-js:before {
+  content: "\f3b8";
 }
 .fa-gift:before {
   content: "\f06b";
