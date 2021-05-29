@@ -187,9 +187,9 @@ section h2 {
     font-size: 3em;
 }
 
-section#contact {
+section.success {
     color: #fff;
-    background-color: #389cff;
+    background: #389cff;
 }
 
 @media(max-width:767px) {
