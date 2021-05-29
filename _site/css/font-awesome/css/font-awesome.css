@@ -479,7 +479,7 @@
   content: "\f064";
 }
 .fa-bootstrap:before {
-content: "\f836"
+  content: "\f836"
 }
 .fa-expand:before {
   content: "\f065";
@@ -498,6 +498,9 @@ content: "\f836"
 }
 .fa-exclamation-circle:before {
   content: "\f06a";
+}
+.fa-js:before {
+  content: "\f3b8";
 }
 .fa-gift:before {
   content: "\f06b";
@@ -1070,9 +1073,6 @@ content: "\f836"
 }
 .fa-css3:before {
   content: "\f13c";
-}
-.fa-js:before {
-  content: "\f3b8";
 }
 .fa-anchor:before {
   content: "\f13d";
