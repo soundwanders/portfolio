@@ -180,7 +180,7 @@ section h2 {
     font-size: 3em;
 }
 
-section.success {
+section.contact {
     color: #fff;
     background: #{{ site.color.primary }};
 }
