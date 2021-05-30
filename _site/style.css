@@ -281,6 +281,9 @@ section.success {
       flex: 1 0 32%;
       max-width: 32%;
     }
+    #iconRow2 {
+        margin-top: 6rem;
+    }
   }
   /* A large grid might need four columns on widescreen layouts */
   /* @media (min-width: 1380px) {
