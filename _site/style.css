@@ -493,3 +493,25 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+/* Animation */
+.name {
+    animation: animated-text 4s steps(29,end) 1s 1 normal both,
+               animated-cursor 800ms steps(29,end) infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 500ms;
+}
+
+/* h1 text animation */
+@keyframes animated-text{
+    from {width: 0;}
+    to {width: max-content;}
+  }
+  
+  /* cursor blinking animations */
+  
+  @keyframes animated-cursor{
+    from {border-right-color: rgba(255, 255, 255, 0.75);}
+    to {border-right-color: transparent;}
+}
+  
