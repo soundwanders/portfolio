@@ -1,8 +1,8 @@
 # Site settings
 title: soundwanders
-email: soundwanders@gmail.com
+email: soundwanders@jekyll.site
 url: https://soundwanders.github.io/portfolio
-description: "Jared Coletta developer portfolio."
+description: "A mock portfolio site built with Jerome Michaud's Bootstrap + Jekyll template."
 keywords: "html, css, javascript, jekyll, bootstrap, portfolio, website"
 trade: "Front-End Developer"
 meta_author: soundwanders
@@ -40,15 +40,15 @@ footer:
 # Social networks
 social:
   - title: stack-overflow
-    url: https://stackoverflow.com/users/14271738/soundwanders
+    url: https://stackoverflow.com
   - title: linkedin
-    url: https://www.linkedin.com/in/jared-coletta-205882116
+    url: https://linkedin.com
   - title: github
-    url: https://github.com/soundwanders
+    url: https://github.com
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: New Hampshire, United States
+  - line: Kilgore Trout
 
 # Build settings
 markdown: kramdown
